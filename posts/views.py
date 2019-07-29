@@ -26,7 +26,7 @@ def post_detail(request, pk):
     return render(request, 'postdetail.html', {'post': post})
 
 
-def create_or_edit_a_post(request, pk=none):
+def create_or_edit_a_post(request, pk= None):
     # Create a view that allows us to create or edit
     # a post depending if the post ID is null or not
 
