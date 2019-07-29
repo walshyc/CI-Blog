@@ -13,4 +13,4 @@ class Post(models.Model):
     image = models.ImageField(upload_to='img')
 
     def __unicode__(self):
-    return self.title
+      return self.title
