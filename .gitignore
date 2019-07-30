@@ -29,6 +29,8 @@ CACHE
 /blogenv
 cache/
 
+env.py
+
 /README.rst
 
 # Byte-compiled / optimized / DLL files
